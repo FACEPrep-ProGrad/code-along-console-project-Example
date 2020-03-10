@@ -31,15 +31,14 @@ public class Main {
 		String password=null;
 
 		User user = null;
-		
-		// Syntax of creating an array list
+	
 		List<User> list=new ArrayList<User>();
 		Map<Integer,User> map= new HashMap<Integer,User>();
 		
 		
 		CRUDOperations crud=new CRUDOperations();
 		int choice = 0;
-		// Getting user inputs
+
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		String yes;
 		do {
